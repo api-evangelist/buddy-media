@@ -1,8 +1,26 @@
 aid: buddy-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buddy-media.png
 name: Buddy Media
-description: 'Buddy Media is a company surfaced as a portfolio company of ggv-capital, insight-partners,
-  ivp and added to the API Evangelist network as a stub for enrichment. Sector: martech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Buddy Media was a social media marketing and advertising platform (founded 2007, backed
+  by ggv-capital, insight-partners and ivp) that helped brands manage publishing, engagement and paid
+  campaigns across Facebook, Twitter and other social networks. It was acquired by Salesforce in 2012
+  and folded into the Salesforce Marketing Cloud (Social Studio) product line; the buddymedia.com domain
+  now redirects to salesforce.com/marketing. No standalone Buddy Media public API, developer portal or
+  first-party SDK remains — this network entry is retained as a historical martech company stub.'
+x-status: acquired
+x-acquired-by: salesforce
+x-acquired-year: '2012'
 url: https://raw.githubusercontent.com/api-evangelist/buddy-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Martech
+- Social Media
+- Marketing
+- Advertising
+- SaaS
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/buddy-media-domain-security.yml
 - type: Website
   url: https://buddymedia.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
