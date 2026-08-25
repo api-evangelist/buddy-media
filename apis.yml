@@ -12,12 +12,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buddy-media.png
 name: Buddy Media
-description: 'Buddy Media was a social media marketing and advertising platform (founded 2007, backed
-  by ggv-capital, insight-partners and ivp) that helped brands manage publishing, engagement and paid
-  campaigns across Facebook, Twitter and other social networks. It was acquired by Salesforce in 2012
-  and folded into the Salesforce Marketing Cloud (Social Studio) product line; the buddymedia.com domain
-  now redirects to salesforce.com/marketing. No standalone Buddy Media public API, developer portal or
-  first-party SDK remains — this network entry is retained as a historical martech company stub.'
+description: Buddy Media was a social media marketing and advertising platform (founded 2007, backed by ggv-capital,
+  insight-partners and ivp) that helped brands manage publishing, engagement and paid campaigns across Facebook,
+  Twitter and other social networks. It was acquired by Salesforce in 2012 and folded into the Salesforce Marketing
+  Cloud (Social Studio) product line; the buddymedia.com domain now redirects to salesforce.com/marketing. No standalone
+  Buddy Media public API, developer portal or first-party SDK remains — this network entry is retained as a historical
+  martech company stub.
 x-status: acquired
 x-acquired-by: salesforce
 x-acquired-year: '2012'
@@ -32,7 +32,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-08-21'
 tags:
 - Company
 - MarTech
@@ -56,6 +56,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
+  x-acquired: 2012
 - type: DomainSecurity
   url: security/buddy-media-domain-security.yml
 - type: Website
@@ -65,3 +71,6 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: salesforce
+x-relationship: acquisition
+x-acquired: 2012
