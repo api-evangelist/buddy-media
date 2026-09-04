@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://buddymedia.com/', status: 301, note: 'declared website redirects to https://www.salesforce.com/marketing/?mc=buddymedia&bc=DB — a different registrable domain (buddymedia.com -> salesforce.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buddy-media.png
 name: Buddy Media
 description: Buddy Media was a social media marketing and advertising platform (founded 2007, backed by ggv-capital,
